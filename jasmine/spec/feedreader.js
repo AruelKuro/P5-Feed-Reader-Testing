@@ -60,8 +60,7 @@ $(function() {
          });
 
          it('feed has at least one entry', function() {
-            var entry = document.querySelector(".entry");
-            expect($('.feed .entry).length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
          });
     });
 
