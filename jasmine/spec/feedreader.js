@@ -61,7 +61,7 @@ $(function() {
 
          it('feed has at least one entry', function() {
             var entry = document.querySelector(".entry");
-            expect(entry.length).not.toBe(0);
+            expect($('.feed .entry).length).toBeGreaterThan(0);
          });
     });
 
