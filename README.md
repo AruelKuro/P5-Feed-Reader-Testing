@@ -24,3 +24,6 @@ Javascript testing framework Jasmine was used for these tests.
 
 #### New Feed Selection
 - Check if content changes after new feed is loaded.
+
+## Reference
+Starter code was provided by Udacity.
